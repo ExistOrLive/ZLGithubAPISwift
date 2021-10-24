@@ -1,0 +1,6 @@
+framework module Pods_ZLGithubAPISwift_Tests {
+  umbrella header "Pods-ZLGithubAPISwift_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

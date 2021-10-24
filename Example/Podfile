@@ -1,0 +1,16 @@
+use_frameworks!
+
+platform :ios, '11.0'
+
+target 'ZLGithubAPISwift_Example' do
+  pod 'ZLGithubAPISwift', :path => '../'
+
+  target 'ZLGithubAPISwift_Tests' do
+    inherit! :search_paths
+
+    pod 'Quick'
+    pod 'Nimble'
+    pod 'FBSnapshotTestCase'
+    pod 'Nimble-Snapshots'
+  end
+end

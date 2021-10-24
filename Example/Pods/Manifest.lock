@@ -1,0 +1,71 @@
+PODS:
+  - Alamofire (5.4.4)
+  - Apollo (0.39.0):
+    - Apollo/Core (= 0.39.0)
+  - Apollo/Core (0.39.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - HandyJSON (5.0.2)
+  - iOSSnapshotTestCase (7.0.0):
+    - iOSSnapshotTestCase/SwiftSupport (= 7.0.0)
+  - iOSSnapshotTestCase/Core (7.0.0)
+  - iOSSnapshotTestCase/SwiftSupport (7.0.0):
+    - iOSSnapshotTestCase/Core
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - Nimble (9.2.1)
+  - Nimble-Snapshots (9.2.0):
+    - Nimble-Snapshots/Core (= 9.2.0)
+  - Nimble-Snapshots/Core (9.2.0):
+    - iOSSnapshotTestCase (~> 7.0)
+    - Nimble
+  - Quick (4.0.0)
+  - ZLGithubAPISwift (0.1.0):
+    - Alamofire
+    - Apollo
+    - HandyJSON
+    - Moya
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - Nimble
+  - Nimble-Snapshots
+  - Quick
+  - ZLGithubAPISwift (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Apollo
+    - FBSnapshotTestCase
+    - HandyJSON
+    - iOSSnapshotTestCase
+    - Moya
+    - Nimble
+    - Nimble-Snapshots
+    - Quick
+
+EXTERNAL SOURCES:
+  ZLGithubAPISwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
+  Apollo: f6c6410ebee82dd5846be87b81cedc8bc7754a82
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
+  iOSSnapshotTestCase: 63402a5707db9c4103b6cc3f04c76e981fff7952
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  Nimble: e7e615c0335ee4bf5b0d786685451e62746117d5
+  Nimble-Snapshots: 9b7c9410ee7bef52a889e7c1d8c98e1bfd9e0720
+  Quick: 6473349e43b9271a8d43839d9ba1c442ed1b7ac4
+  ZLGithubAPISwift: e0040a613d0232a81afb35c7dbbcc45a7851ae50
+
+PODFILE CHECKSUM: 2f09a1d143fc39357a404ac34f0f32b358d14a2b
+
+COCOAPODS: 1.11.0
